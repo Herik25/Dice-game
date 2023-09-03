@@ -1,0 +1,242 @@
+.dice{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #f1f1f1;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.green{
+    background-color: #59e391;
+}
+
+.one{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.two {
+    position: relative;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #222;
+    border-radius: 50%;
+    transform: translate(-10px,10px);
+}
+
+.two::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(20px,-20px);
+}
+
+.three {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #222;
+    border-radius: 50%;
+}
+
+.three::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(12px,-12px);
+}
+
+.three::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-12px,12px);
+}
+
+.four{
+    position: relative;
+    /* width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%; */
+}
+
+.four::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-18px,-18px);
+}
+
+.four::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(9px,9px);
+}
+
+.four div::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-18px,9px);
+}
+
+.four div::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(9px,-18px);
+}
+
+.five{
+    position: relative;
+    width: 11px;
+    height: 11px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.five::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-14px,-14px);
+}
+
+.five::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(14px,14px);
+}
+
+.five div::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-14px,14px);
+}
+
+.five div::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(14px,-14px);
+}
+
+.six{
+    position: relative;
+    /* width: 10px;
+    height: 10px;
+    background-color:#000;
+    border-radius: 50%; */
+}
+
+.six::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-20px,-20px);
+}
+
+.six::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(10px,10px);
+}
+
+.six div::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-20px,10px);
+}
+
+.six div::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(10px,-20px);
+}
+
+.six div span::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(10px,-5px);
+}
+
+.six div span::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-20px,-5px);
+}
